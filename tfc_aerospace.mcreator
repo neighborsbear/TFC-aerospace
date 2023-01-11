@@ -1,0 +1,452 @@
+{
+  "mod_elements": [
+    {
+      "name": "CuriosEquiped",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curios_equiped",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CuriosDequiped",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curios_dequiped",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RingsEffect",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rings_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aerospacehat",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacehat"
+    },
+    {
+      "name": "Aerospaceshirt",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospaceshirt"
+    },
+    {
+      "name": "Aerospacepants",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacepants"
+    },
+    {
+      "name": "Aerospacesocks",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacesocks"
+    },
+    {
+      "name": "CFRP",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cfrp"
+    },
+    {
+      "name": "CFRPred",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cfr_pred"
+    },
+    {
+      "name": "CFRPblue",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cfr_pblue"
+    },
+    {
+      "name": "Alcohol",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcohol"
+    },
+    {
+      "name": "Alcoholfirebeer",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfirebeer"
+    },
+    {
+      "name": "Alcoholfirerum",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfirerum"
+    },
+    {
+      "name": "Alcoholfiresake",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfiresake"
+    },
+    {
+      "name": "Alcoholfirevodka",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfirevodka"
+    },
+    {
+      "name": "Alcoholfirewhiskey",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfirewhiskey"
+    },
+    {
+      "name": "Alcoholfirecornwhiskey",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfirecornwhiskey"
+    },
+    {
+      "name": "Alcoholfireryewhiskey",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholfireryewhiskey"
+    },
+    {
+      "name": "Alcoholheatingbeer",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingbeer"
+    },
+    {
+      "name": "Alcoholheatingrum",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingrum"
+    },
+    {
+      "name": "Alcoholheatingsake",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingsake"
+    },
+    {
+      "name": "Alcoholheatingvodka",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingvodka"
+    },
+    {
+      "name": "Alcoholheatingwhiskey",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingwhiskey"
+    },
+    {
+      "name": "Alcoholheatingcornwhiskey",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingcornwhiskey"
+    },
+    {
+      "name": "Alcoholheatingryewhiskey",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholheatingryewhiskey"
+    },
+    {
+      "name": "AlcoholPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcohol_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Polyester",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polyester"
+    },
+    {
+      "name": "Polyestercraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polyestercraft"
+    },
+    {
+      "name": "Aluminiumfiber",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumfiber"
+    },
+    {
+      "name": "Aluminiumfibercraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aluminiumfibercraft"
+    },
+    {
+      "name": "Alcoholjelly",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcoholjelly"
+    },
+    {
+      "name": "Alcoholjellyburn",
+      "type": "itemextension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcoholjellyburn"
+    },
+    {
+      "name": "Alcoholjellycraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alcoholjellycraft"
+    },
+    {
+      "name": "Airgel",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airgel"
+    },
+    {
+      "name": "Alcoholjellyfire",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcoholjellyfire"
+    },
+    {
+      "name": "Aerospacefiber",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacefiber"
+    },
+    {
+      "name": "Aerospacefibercraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aerospacefibercraft"
+    },
+    {
+      "name": "Aerospacehatcraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacehatcraft"
+    },
+    {
+      "name": "Aerospaceshirtcraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospaceshirtcraft"
+    },
+    {
+      "name": "Aerospacepantscraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacepantscraft"
+    },
+    {
+      "name": "Aerospacesockscraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerospacesockscraft"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "aerospacehat",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "aerospaceshirt",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "aerospacepants",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "aerospacesocks",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "ko_kr": {
+      "item.tfc_aerospace.airgel": "에어로젤",
+      "item.tfc_aerospace.alcoholjelly": "알코올 젤리",
+      "item.tfc_aerospace.aerospaceshirt": "항공우주 상의",
+      "item.tfc_aerospace.aluminiumfiber": "알루미늄 코팅 섬유",
+      "item.tfc_aerospace.polyester": "폴리에스터 섬유",
+      "item.tfc_aerospace.aerospacefiber": "항공우주 섬유",
+      "item.tfc_aerospace.aerospacehat": "항공우주 모자",
+      "item.tfc_aerospace.aerospacesocks": "항공우주 양말",
+      "item.tfc_aerospace.cfrp": "탄소 섬유 강화 중합체",
+      "item.tfc_aerospace.aerospacepants": "항공우주 하의",
+      "item.tfc_aerospace.alcohol": "알코올 양동이"
+    },
+    "en_us": {
+      "item.tfc_aerospace.airgel": "Airgel",
+      "item.tfc_aerospace.alcoholjelly": "Alcohol jelly",
+      "item.tfc_aerospace.aerospaceshirt": "Aerospace shirt",
+      "item.tfc_aerospace.aluminiumfiber": "Aluminiumfiber",
+      "item.tfc_aerospace.polyester": "Polyester",
+      "item.tfc_aerospace.aerospacefiber": "Aerospace fiber",
+      "item.tfc_aerospace.aerospacehat": "Aerospace hat",
+      "item.tfc_aerospace.aerospacesocks": "Aerospace socks",
+      "item.tfc_aerospace.cfrp": "CFRP",
+      "item.tfc_aerospace.aerospacepants": "Aerospace pants",
+      "item.tfc_aerospace.alcohol": "Alcohol"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tfc_aerospace",
+    "modName": "TFC-aerospace",
+    "version": "1.0.0",
+    "author": "Fernando, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tfcaerospace",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
