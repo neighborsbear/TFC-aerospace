@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 "
+  ],
+  "key": {
+    "0": {
+      "item": "immersiveengineering:plate_aluminum"
+    },
+    "1": {
+      "item": "immersiveengineering:plate_aluminum"
+    },
+    "2": {
+      "item": "immersiveengineering:wirecutter"
+    },
+    "3": {
+      "item": "immersiveengineering:wirecoil_structure_rope"
+    },
+    "4": {
+      "item": "immersiveengineering:wirecoil_structure_rope"
+    }
+  },
+  "result": {
+    "item": "tfc_aerospace:aluminiumfiber",
+    "count": 12
+  }
+}

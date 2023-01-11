@@ -1,0 +1,39 @@
+{
+  "group": "aerospace_clothes",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "2": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "3": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "4": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "5": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "6": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "7": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "8": {
+      "item": "tfc_aerospace:aerospacefiber"
+    }
+  },
+  "result": {
+    "item": "tfc_aerospace:aerospaceshirt",
+    "count": 1
+  }
+}
