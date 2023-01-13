@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 20,
+  "cookingtime": 2000,
+  "ingredient": {
+    "item": "tfc_aerospace:alcoholjelly"
+  },
+  "result": "tfc_aerospace:airgel"
+}

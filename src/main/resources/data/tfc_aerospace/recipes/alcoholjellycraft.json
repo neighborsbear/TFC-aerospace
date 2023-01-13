@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc_aerospace:alcohol"
+    },
+    {
+      "item": "tfc_aerospace:alcohol"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "item": "ae2:certus_quartz_dust"
+    }
+  ],
+  "result": {
+    "item": "tfc_aerospace:alcoholjelly",
+    "count": 1
+  }
+}

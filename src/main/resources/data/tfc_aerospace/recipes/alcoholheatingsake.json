@@ -1,0 +1,12 @@
+{
+  "group": "alcoholfire",
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:bucket/sake"
+  },
+  "result_item": {
+    "item": "tfc_aerospace:alcohol",
+    "count": 1
+  },
+  "temperature": 200
+}

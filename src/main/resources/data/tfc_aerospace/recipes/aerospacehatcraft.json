@@ -1,0 +1,29 @@
+{
+  "group": "aerospace_clothes",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "1": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "2": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "3": {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    "5": {
+      "item": "tfc_aerospace:aerospacefiber"
+    }
+  },
+  "result": {
+    "item": "tfc_aerospace:aerospacehat",
+    "count": 1
+  }
+}
