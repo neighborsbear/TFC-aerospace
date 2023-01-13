@@ -3,9 +3,6 @@
     "values": 
     [
         "tfc_aerospace:aerospacesocks",
-        "tfc_aerospace:test_boots",
-        "tfc_aerospace:test2_boots",
-        "tfc_aerospace:test3_boots",
-        "tfc_aerospace:test4_boots"
+        "tfc_aerospace:aerospacesocksC"
     ]
 }

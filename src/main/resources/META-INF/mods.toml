@@ -4,9 +4,10 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="tfc_aerospace"
-version="beta-1.0.0"
+version="1.0.0"
 displayName="TFC-aerospace"
-credits="beta"
+credits="Thanks TFC"
+displayURL=""
 authors="neighborsbear"
 
 [[dependencies.tfc_aerospace]]

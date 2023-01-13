@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc_aerospace:aerospace_shirt"
+      "item": "tfc_aerospace:aerospaceshirt"
     },
     {
       "item": "tfc_aerospace:airgel"
@@ -31,7 +31,7 @@
     }
   ],
   "result": {
-    "item": "tfc_aerospace:aerospace_shirtC",
+    "item": "tfc_aerospace:aerospaceshirtC",
     "count": 1
   }
 }

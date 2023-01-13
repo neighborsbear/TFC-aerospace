@@ -1,0 +1,16 @@
+{
+  "group": "aerospaceC_clothes",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc_aerospace:aerospaceshirt"
+    },
+    {
+      "item": "tfc_aerospace:aerospacefiber"
+    }
+  ],
+  "result": {
+    "item": "tfc_aerospace:aerospaceshirt",
+    "count": 1
+  }
+}

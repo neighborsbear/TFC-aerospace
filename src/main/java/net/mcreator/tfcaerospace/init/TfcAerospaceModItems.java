@@ -27,36 +27,36 @@ public class TfcAerospaceModItems {
 	public static final RegistryObject<Item> AEROSPACEFIBER = ITEMS.register("aerospacefiber", () -> new AerospacefiberItem());
 
 	public static final RegistryObject<Item> AEROSPACEHAT = ITEMS.register(
-			"aerospace_hat",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacehat",
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACESHIRT = ITEMS.register(
-			"aerospace_shirt",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospaceshirt",
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACEPANTS = ITEMS.register(
-			"aerospace_pants",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacepants",
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACESOCKS = ITEMS.register(
-			"aerospace_socks",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacesocks",
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 
 	public static final RegistryObject<Item> AEROSPACEHATC = ITEMS.register(
-			"aerospace_hatC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacehatC",
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACESHIRTC = ITEMS.register(
-			"aerospace_shirtC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospaceshirtC",
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACEPANTSC = ITEMS.register(
-			"aerospace_pantsC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacepantsC",
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 	public static final RegistryObject<Item> AEROSPACESOCKSC = ITEMS.register(
-			"aerospace_socksC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
+			"aerospacesocksC",
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.RARE))
 	);
 }

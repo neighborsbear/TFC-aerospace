@@ -57,7 +57,7 @@ public class AerospaceHeatClothesMaterial implements ArmorMaterial, TemperatureA
 
     @Override
     public TempModifier getTempModifier(ItemStack stack) {
-        float tem = 60;
+        float tem = 60f;
         return new TempModifier(stack.getItem().getRegistryName().toString(), (25f - tem)/4f, -300f);
     }
 }

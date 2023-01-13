@@ -1,0 +1,19 @@
+{
+  "group": "aerospaceC_clothes",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc_aerospace:aerospacehatC"
+    },
+    {
+      "item": "tfc_aerospace:aerospacefiber"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    }
+  ],
+  "result": {
+    "item": "tfc_aerospace:aerospacehatC",
+    "count": 1
+  }
+}
