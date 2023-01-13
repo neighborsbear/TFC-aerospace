@@ -1,18 +1,17 @@
 package net.mcreator.tfcaerospace.item;
 
-import com.lumintorious.tfcambiental.item.TemperatureAlteringMaterial;
 import com.lumintorious.tfcambiental.modifier.TempModifier;
-import net.dries007.tfc.common.items.TFCItems;
+import com.lumintorious.tfcambiental.item.TemperatureAlteringMaterial;
+import net.mcreator.tfcaerospace.init.TfcAerospaceModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
 
-public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
-    public static final Test3ClothesMaterial MATERIAL = new Test3ClothesMaterial();
+public class AerospaceClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
+    public static final AerospaceClothesMaterial MATERIAL = new AerospaceClothesMaterial();
 
     @Override
     public int getDurabilityForSlot(EquipmentSlot pSlot) {
@@ -36,12 +35,12 @@ public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringM
 
     @Override
     public @NotNull Ingredient getRepairIngredient() {
-        return Ingredient.of(new ItemStack(TFCItems.WOOL_CLOTH.get(), 1)); // 수리 제료
+        return Ingredient.of(new ItemStack(TfcAerospaceModItems.AEROSPACEFIBER.get(), 1)); // 수리 재료
     }
 
     @Override
     public @NotNull String getName() {
-        return "tfc aerospace:test_cloth";
+        return "tfc_aerospace:aerospace_cloth";
     }
 
     @Override
@@ -54,8 +53,10 @@ public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringM
         return 0;
     }
 
+
     @Override
     public TempModifier getTempModifier(ItemStack stack) {
-        return new TempModifier(stack.getItem().getRegistryName().toString(), 0f, -25000f);
+        float tem = -30;
+        return new TempModifier(stack.getItem().getRegistryName().toString(), (25f - tem)/4f, -300f);
     }
 }

@@ -1,25 +1,18 @@
 package net.mcreator.tfcaerospace.item;
 
-import com.lumintorious.tfcambiental.modifier.TempModifier;
 import com.lumintorious.tfcambiental.item.TemperatureAlteringMaterial;
-import com.lumintorious.tfcambiental.api.EquipmentTemperatureProvider;
-import com.lumintorious.tfcambiental.modifier.EnvironmentalModifier;
-import net.dries007.tfc.util.climate.Climate;
+import com.lumintorious.tfcambiental.modifier.TempModifier;
 import net.mcreator.tfcaerospace.init.TfcAerospaceModItems;
-import net.minecraft.world.level.Level;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Optional;
-
-public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
-    public static final TestClothesMaterial MATERIAL = new TestClothesMaterial();
+public class AerospaceHeatClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
+    public static final AerospaceHeatClothesMaterial MATERIAL = new AerospaceHeatClothesMaterial();
 
     @Override
     public int getDurabilityForSlot(EquipmentSlot pSlot) {
@@ -48,7 +41,7 @@ public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMa
 
     @Override
     public @NotNull String getName() {
-        return "tfc_aerospace:test_cloth";
+        return "tfc_aerospace:aerospace_cloth";
     }
 
     @Override
@@ -64,7 +57,7 @@ public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMa
 
     @Override
     public TempModifier getTempModifier(ItemStack stack) {
-        float avg = EnvironmentalModifier.avg; // I don't know how to call the variable.
-        return new TempModifier(stack.getItem().getRegistryName().toString(), (25f - avg)/4f, -250f);
+        float tem = 60;
+        return new TempModifier(stack.getItem().getRegistryName().toString(), (25f - tem)/4f, -300f);
     }
 }
