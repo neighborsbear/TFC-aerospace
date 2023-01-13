@@ -66,35 +66,35 @@ public class TfcAerospaceModItems {
 
 	public static final RegistryObject<Item> TEST3_HAT = ITEMS.register(
 			"test3_hat",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(Test3ClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST3_SWEATER = ITEMS.register(
 			"test3_sweater",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(Test3ClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST3_PANTS = ITEMS.register(
 			"test3_pants",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(Test3ClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST3_BOOTS = ITEMS.register(
 			"test3_boots",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(Test3ClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 
 	public static final RegistryObject<Item> TEST4_HAT = ITEMS.register(
-			"test_hat",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			"test4_hat",
+			() -> new ClothesItem(Test4ClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST4_SWEATER = ITEMS.register(
-			"test_sweater",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			"test4_sweater",
+			() -> new ClothesItem(Test4ClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST4_PANTS = ITEMS.register(
-			"test_pants",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			"test4_pants",
+			() -> new ClothesItem(Test4ClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 	public static final RegistryObject<Item> TEST4_BOOTS = ITEMS.register(
-			"test_boots",
-			() -> new ClothesItem(TestClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			"test4_boots",
+			() -> new ClothesItem(Test4ClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
 	);
 }
