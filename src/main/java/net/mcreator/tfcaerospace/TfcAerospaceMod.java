@@ -45,7 +45,7 @@ public class TfcAerospaceMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		TfcAerospaceModItems.REGISTRY.register(bus);
+		TfcAerospaceModItems.ITEMS.register(bus);
 
 	}
 

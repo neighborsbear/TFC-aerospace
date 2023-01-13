@@ -1,8 +1,7 @@
 package net.mcreator.tfcaerospace.item;
 
-import com.lumintorious.tfcambiental.modifier.TempModifier;
 import com.lumintorious.tfcambiental.item.TemperatureAlteringMaterial;
-import com.lumintorious.tfcambiental.api.EquipmentTemperatureProvider;
+import com.lumintorious.tfcambiental.modifier.TempModifier;
 import net.dries007.tfc.common.items.TFCItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -12,8 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
 
-public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
-    public static final TestClothesMaterial MATERIAL = new TestClothesMaterial();
+public class Test2ClothesMaterial implements ArmorMaterial, TemperatureAlteringMaterial {
+    public static final Test2ClothesMaterial MATERIAL = new Test2ClothesMaterial();
 
     @Override
     public int getDurabilityForSlot(EquipmentSlot pSlot) {
@@ -42,7 +41,7 @@ public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMa
 
     @Override
     public @NotNull String getName() {
-        return "tfc_aerospace:test";
+        return "tfcaerospace:test";
     }
 
     @Override
@@ -57,6 +56,6 @@ public class TestClothesMaterial implements ArmorMaterial, TemperatureAlteringMa
 
     @Override
     public TempModifier getTempModifier(ItemStack stack) {
-        return new TempModifier(stack.getItem().getRegistryName().toString(), 12.5f, -250000f);
+        return new TempModifier(stack.getItem().getRegistryName().toString(), -7.5f, -250000f);
     }
 }

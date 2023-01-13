@@ -3,6 +3,9 @@
     "values": 
     [
         "tfc_aerospace:aerospacehat",
-        "tfc_aerospace:test_hat"
+        "tfc_aerospace:test_hat",
+        "tfc_aerospace:test2_hat",
+        "tfc_aerospace:test3_hat",
+        "tfc_aerospace:test4_hat"
     ]
 }

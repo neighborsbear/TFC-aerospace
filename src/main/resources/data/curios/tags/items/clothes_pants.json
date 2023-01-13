@@ -3,6 +3,9 @@
     "values": 
     [
         "tfc_aerospace:aerospacepants",
-        "tfc_aerospace:test_pants"
+        "tfc_aerospace:test_pants",
+        "tfc_aerospace:test2_pants",
+        "tfc_aerospace:test3_pants",
+        "tfc_aerospace:test4_pants"
     ]
 }

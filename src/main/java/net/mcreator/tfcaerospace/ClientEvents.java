@@ -16,5 +16,17 @@ public class ClientEvents {
         CuriosRendererRegistry.register(TfcAerospaceModItems.TEST_SWEATER.get(), ClothesCurioRendeder::new);
         CuriosRendererRegistry.register(TfcAerospaceModItems.TEST_PANTS.get(), ClothesCurioRendeder::new);
         CuriosRendererRegistry.register(TfcAerospaceModItems.TEST_BOOTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST2_HAT.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST2_SWEATER.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST2_PANTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST2_BOOTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST3_HAT.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST3_SWEATER.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST3_PANTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST3_BOOTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST4_HAT.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST4_SWEATER.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST4_PANTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.TEST4_BOOTS.get(), ClothesCurioRendeder::new);
     }
 }

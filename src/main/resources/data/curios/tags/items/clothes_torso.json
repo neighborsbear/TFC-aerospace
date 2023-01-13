@@ -3,6 +3,9 @@
     "values": 
     [
         "tfc_aerospace:aerospaceshirt",
-        "tfc_aerospace:test_sweater"
+        "tfc_aerospace:test_sweater",
+        "tfc_aerospace:test2_sweater",
+        "tfc_aerospace:test3_sweater",
+        "tfc_aerospace:test4_sweater"
     ]
 }
