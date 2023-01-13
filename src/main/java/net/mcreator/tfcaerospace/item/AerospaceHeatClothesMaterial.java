@@ -21,12 +21,12 @@ public class AerospaceHeatClothesMaterial implements ArmorMaterial, TemperatureA
 
     @Override
     public int getDefenseForSlot(EquipmentSlot pSlot) {
-        return 0;
+        return 2;
     }
 
     @Override
     public int getEnchantmentValue() {
-        return 0;
+        return 22;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class AerospaceHeatClothesMaterial implements ArmorMaterial, TemperatureA
 
     @Override
     public float getToughness() {
-        return 0;
+        return 0.5f;
     }
 
     @Override

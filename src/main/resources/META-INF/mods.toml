@@ -4,11 +4,10 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="tfc_aerospace"
-version="1.0.0"
+version="beta-1.0.0"
 displayName="TFC-aerospace"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Fernando, MCreator"
+credits="beta"
+authors="neighborsbear"
 
 [[dependencies.tfc_aerospace]]
     modId="minecraft"

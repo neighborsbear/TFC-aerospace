@@ -9,6 +9,7 @@ import com.lumintorious.tfcambiental.item.ClothesItem;
 import net.mcreator.tfcaerospace.item.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,35 +28,35 @@ public class TfcAerospaceModItems {
 
 	public static final RegistryObject<Item> AEROSPACEHAT = ITEMS.register(
 			"aerospace_hat",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACESHIRT = ITEMS.register(
 			"aerospace_shirt",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACEPANTS = ITEMS.register(
 			"aerospace_pants",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACESOCKS = ITEMS.register(
 			"aerospace_socks",
-			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 
 	public static final RegistryObject<Item> AEROSPACEHATC = ITEMS.register(
 			"aerospace_hatC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACESHIRTC = ITEMS.register(
 			"aerospace_shirtC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACEPANTSC = ITEMS.register(
 			"aerospace_pantsC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 	public static final RegistryObject<Item> AEROSPACESOCKSC = ITEMS.register(
 			"aerospace_socksC",
-			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(1))
+			() -> new ClothesItem(AerospaceHeatClothesMaterial.MATERIAL, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_TRANSPORTATION).durability(1).rarity(Rarity.UNCOMMON))
 	);
 }

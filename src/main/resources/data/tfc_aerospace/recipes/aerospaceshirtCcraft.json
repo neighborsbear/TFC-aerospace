@@ -1,0 +1,37 @@
+{
+  "group": "aerospaceC_clothes",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc_aerospace:aerospace_shirt"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    },
+    {
+      "item": "tfc_aerospace:airgel"
+    }
+  ],
+  "result": {
+    "item": "tfc_aerospace:aerospace_shirtC",
+    "count": 1
+  }
+}
