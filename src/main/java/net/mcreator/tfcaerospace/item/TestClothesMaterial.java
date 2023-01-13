@@ -1,6 +1,7 @@
 package net.mcreator.tfcaerospace.item;
 
 import com.lumintorious.tfcambiental.modifier.TempModifier;
+import com.lumintorious.tfcambiental.item.TemperatureAlteringMaterial;
 import net.dries007.tfc.common.items.TFCItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
