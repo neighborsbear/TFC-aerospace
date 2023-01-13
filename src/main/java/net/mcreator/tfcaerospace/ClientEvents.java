@@ -1,6 +1,7 @@
 package net.mcreator.tfcaerospace;
 
 import com.lumintorious.tfcambiental.curios.ClothesCurioRendeder;
+import com.lumintorious.tfcambiental.curios.CurioClothesLayer;
 import net.mcreator.tfcaerospace.init.TfcAerospaceModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

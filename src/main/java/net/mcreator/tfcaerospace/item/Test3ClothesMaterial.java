@@ -16,7 +16,7 @@ public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringM
 
     @Override
     public int getDurabilityForSlot(EquipmentSlot pSlot) {
-        return 3000;
+        return 40000;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringM
 
     @Override
     public @NotNull String getName() {
-        return "tfc aerospace:test";
+        return "tfc aerospace:test_cloth";
     }
 
     @Override
@@ -56,6 +56,6 @@ public class Test3ClothesMaterial implements ArmorMaterial, TemperatureAlteringM
 
     @Override
     public TempModifier getTempModifier(ItemStack stack) {
-        return new TempModifier(stack.getItem().getRegistryName().toString(), 0f, -250000f);
+        return new TempModifier(stack.getItem().getRegistryName().toString(), 0f, -25000f);
     }
 }
