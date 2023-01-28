@@ -10,8 +10,8 @@
   "item.tfc_aerospace.cfrp": "탄소 섬유 강화 중합체",
   "item.tfc_aerospace.aerospacepants": "항공우주 보온 하의",
   "item.tfc_aerospace.alcohol": "알코올 양동이",
-  "item.tfc_aerospace.aerospaceshirtC": "항공우주 방열 상의",
-  "item.tfc_aerospace.aerospacepantsC": "항공우주 방열 하의",
-  "item.tfc_aerospace.aerospacehatC": "항공우주 방열 모자",
-  "item.tfc_aerospace.aerospacesocksC": "항공우주 방열 양말"
+  "item.tfc_aerospace.aerospacecshirt": "항공우주 방열 상의",
+  "item.tfc_aerospace.aerospacecpants": "항공우주 방열 하의",
+  "item.tfc_aerospace.aerospacechat": "항공우주 방열 모자",
+  "item.tfc_aerospace.aerospacecsocks": "항공우주 방열 양말"
 }

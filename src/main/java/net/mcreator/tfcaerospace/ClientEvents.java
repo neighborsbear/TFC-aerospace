@@ -17,9 +17,9 @@ public class ClientEvents {
         CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACESHIRT.get(), ClothesCurioRendeder::new);
         CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACEPANTS.get(), ClothesCurioRendeder::new);
         CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACESOCKS.get(), ClothesCurioRendeder::new);
-        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACEHATC.get(), ClothesCurioRendeder::new);
-        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACESHIRTC.get(), ClothesCurioRendeder::new);
-        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACEPANTSC.get(), ClothesCurioRendeder::new);
-        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACESOCKSC.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACECHAT.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACECSHIRT.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACECPANTS.get(), ClothesCurioRendeder::new);
+        CuriosRendererRegistry.register(TfcAerospaceModItems.AEROSPACECSOCKS.get(), ClothesCurioRendeder::new);
     }
 }

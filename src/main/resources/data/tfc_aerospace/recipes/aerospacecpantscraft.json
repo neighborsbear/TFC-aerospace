@@ -1,9 +1,9 @@
 {
-  "group": "aerospaceC_clothes",
+  "group": "aerospacec_clothes",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "tfc_aerospace:aerospacesocks"
+      "item": "tfc_aerospace:aerospacepants"
     },
     {
       "item": "tfc_aerospace:airgel"
@@ -31,7 +31,7 @@
     }
   ],
   "result": {
-    "item": "tfc_aerospace:aerospacesocksC",
+    "item": "tfc_aerospace:aerospacecpants",
     "count": 1
   }
 }

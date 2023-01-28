@@ -10,8 +10,8 @@
   "item.tfc_aerospace.aerospacefiber": "Aerospace fiber",
   "item.tfc_aerospace.cfrp": "CFRP",
   "item.tfc_aerospace.alcohol": "Alcohol",
-  "item.tfc_aerospace.aerospaceshirtC": "Aerospace shirt",
-  "item.tfc_aerospace.aerospacepantsC": "Aerospace pants",
-  "item.tfc_aerospace.aerospacehatC": "Aerospace hat",
-  "item.tfc_aerospace.aerospacesocksC": "Aerospace socks"
+  "item.tfc_aerospace.aerospacecshirt": "Aerospace shirt",
+  "item.tfc_aerospace.aerospacecpants": "Aerospace pants",
+  "item.tfc_aerospace.aerospacechat": "Aerospace hat",
+  "item.tfc_aerospace.aerospacecsocks": "Aerospace socks"
 }

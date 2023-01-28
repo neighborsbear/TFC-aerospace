@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="tfc_aerospace"
-version="1.0.0"
+version="1.0.2"
 displayName="TFC-aerospace"
-credits="Thanks TFC"
-displayURL=""
-authors="neighborsbear"
+credits="Thanks to TFC and tfc Ambiental."
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tfc-aerospace"
+authors="Fernando, MCreator"
 
 [[dependencies.tfc_aerospace]]
     modId="minecraft"
